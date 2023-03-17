@@ -3,7 +3,7 @@ import conf from "../../config";
 export default function Footer(){
   return (
     <footer>
-      <img src="/assets/logo.png" alt="Logo" />
+      
 
       <div className="links">
         {
@@ -13,7 +13,7 @@ export default function Footer(){
 
         {
           conf.SITE_CREDITS &&
-          <a href="https://ripper.lol" target="_blank">🎨 by ripper.lol</a>
+          <a href="https://filmak.onrender.com" target="_blank">🎨 by BUGBOUNT3D</a>
         }
       </div>
 
