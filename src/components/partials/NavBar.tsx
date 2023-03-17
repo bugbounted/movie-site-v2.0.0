@@ -36,7 +36,7 @@ export default function NavBar(){
   return (
     <nav className={scrolled ? "scrolled" : ""}>
       <Link to="/">
-        <img className="logo" src="/assets/logo.png" alt={conf.SITE_TITLE} />
+        
       </Link>
 
       <div className="links">
